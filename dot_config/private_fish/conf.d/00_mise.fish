@@ -7,7 +7,7 @@
 if type -q eza
     # *ユーザーが追加オプションを書けるように alias の後ろ何もつけない*
     alias ls="eza -h --icons --group-directories-first"
-    alias la="eza -ha --icons --group-directories-first"
+    alias la="eza -lha --icons --group-directories-first --total-size"
     alias ll="eza -lha --icons --group-directories-first"
 
     # tree 互換
