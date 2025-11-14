@@ -31,6 +31,6 @@ if status is-interactive
 
         set selected_theme $themes[$idx]
 
-        exec zellij options --theme $selected_theme
+        zellij options --theme $selected_theme
     end
 end
