@@ -40,6 +40,4 @@ jq = "latest"                          # JSON処理
 eza = "latest"                        # ls代替
 hyperfine = "latest"                  # コマンドベンチマーク
 codex = "latest"                      # 端末上で動く軽量AIコーディングエージェント
-tokei = "latest"
-"cargo:quicssh-rs" = "latest"
-"chezmoi" = "latest"
+chezmoi = "latest"
